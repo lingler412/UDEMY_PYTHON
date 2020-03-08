@@ -2,7 +2,7 @@ celsius_input = int(input("Please enter a celsius value to convert to fahrenheit
  
 
 def calculate_fahrenheit_temp(celsius_input): # defining a function to convert celsius user input into fahrenheit degrees
-    return celsius_input * 1.8 + 32
+    return (celsius_input * 18 + 320) / 10
 
 
 fahrenheit_temp = round(calculate_fahrenheit_temp(celsius_input), 1) # using the round function to ensure no more than 1 place after decimal is retruned
