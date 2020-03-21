@@ -17,3 +17,5 @@ print(" ".join(words)) # join method requires how they will be joined, space, co
 print (" ".join(words).isalpha()) #can combined str methods
 
 print(" ".join(words).isalpha()) # when joining and adding a boolean, boolean is on the joined string
+
+# testing out branching on git
