@@ -15,3 +15,5 @@ print(words)
 
 print(" ".join(words)) # join method requires how they will be joined, space, comma, etc up front
 print (" ".join(words).isalpha()) #can combined str methods
+
+print(" ".join(words).isalpha()) # when joining and adding a boolean, boolean is on the joined string
