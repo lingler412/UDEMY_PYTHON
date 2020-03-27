@@ -4,10 +4,10 @@ user_str = input("Give me something to work with: ")
 no_special = ""
 
 for char in user_str:
-    if char.isalpha() or char.isspace() or char.isalnum():
+    if char.isalnum() or char.isspace():
         no_special += char
         
 
 num_of_words = len(no_special.split())
 
-print("Your " + str(num_of_words) + " words are " + str(no_special.split()))
+print("Your {} words are {}".format(str(num_of_words), str(no_special.split()))) # used format method raher than concatenation 
